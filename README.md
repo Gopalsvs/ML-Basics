@@ -1,14 +1,10 @@
 # ML-Basics
-ML Assignment 1 - Question Explanations
-NOTE: We expect every question to be answered with some explanations along with the
-code/plots. Just the code/plots without suitable explanations would be considered a
-partial answer and graded as such.
-1) Alcohol Consumption:
+
+## 1) Alcohol Consumption:
 1.1: Try to use different visualization techniques and try to see which features have a significant
 impact on grades. You can choose two or three features of your choice to do so. For this
 question combine all three grades into one may be by taking mean of the grades or any other
-way. Request to follow the announcement:
-https://ai511discussionforum.slack.com/archives/C019AACP12B/p1601666911101700
+way. 
 1.2: There are different encoding techniques(like Label Encoder, Binary Encoder, Ordinal ..). We
 want you to explore different encoding techniques and tell what and all features require
 encoding and which encoding techniques you will use for each feature.
@@ -18,7 +14,7 @@ together and try to see if that affects the grade of the student. Or just combin
 a new feature, if you think certain features can be clubbed together to give a better analysis,
 then the second part of the question would be followed by encoding, do you find the need to do
 and if so which columns and how.
-2) FIFA 2019:
+## 2) FIFA 2019:
 2.1: Here “economical” is subjective and depends on the metric you choose so try to explore
 different possibilities. We want you to derive your own meaning of economical club for yourself.
 Data manipulation and being able to make a new feature, basically get used to pandas to make
@@ -34,7 +30,7 @@ that failed. Essentially mention all intuitions you have in this regard and eith
 along with distribution plots (scatter, bubble etc) to qualitatively tell us about your hypothesis.
 2.5. Rather than plotting, you could use groupby followed by describe and a few more
 conditions to figure this out or you could use a threshold/bins of ages.
-3) Accident Data:
+## 3) Accident Data:
 3.3: Day of the week means (Monday, Tuesday,.... Sunday), what was the speed limit on the
 roads the accidents happened? The intuition behind the question is of feature extraction
 (date->day), getting familiar with groupby and whether being a weekday or weekend affects the
