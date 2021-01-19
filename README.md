@@ -4,7 +4,7 @@
 1.1: Try to use different visualization techniques and try to see which features have a significant
 impact on grades. You can choose two or three features of your choice to do so. For this
 question combine all three grades into one may be by taking mean of the grades or any other
-way. 
+way. \
 1.2: There are different encoding techniques(like Label Encoder, Binary Encoder, Ordinal ..). We
 want you to explore different encoding techniques and tell what and all features require
 encoding and which encoding techniques you will use for each feature.
